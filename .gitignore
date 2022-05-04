@@ -30,4 +30,4 @@ playground.xcworkspace
 
 .build/
 
-CryptoGod/APIBase/Utils/Secret.swift
+APIBase/Utils/Secret.swift
