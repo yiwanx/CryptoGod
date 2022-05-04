@@ -71,3 +71,9 @@ extension Optional where Wrapped == Decimal {
         return num.coloredChangeText(with: currency)
     }
 }
+
+extension Decimal {
+    var doubleValue: Double {
+        NSDecimalNumber(decimal: self).doubleValue
+    }
+}

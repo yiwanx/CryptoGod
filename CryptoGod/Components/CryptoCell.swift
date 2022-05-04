@@ -18,7 +18,7 @@ struct CryptoCell: View {
                     title
                     Spacer()
                     price
-                }.padding(.top)
+                }
                 Spacer(minLength: 4)
                 HStack {
                     priceChangeTitle

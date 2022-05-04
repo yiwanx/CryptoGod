@@ -8,35 +8,36 @@
 import Foundation
 import SwiftUI
 
+protocol Cellable {
+    associatedtype Cell
+    var cell: Cell { get }
+}
+
 struct InfoCellViewModel: Identifiable {
-    var id: UUID
-    
     let name: Text?
     let value: Text?
-    
-    init(name: String, value: String, id: UUID = UUID()) {
-        self.id = id
+    let id = UUID()
+
+    init(name: String, value: String) {
         self.name = Text(name).font(.title3)
         self.value = Text(value).font(.title3)
     }
     
-    init(name: Text?, value: Text?, id: UUID = UUID()) {
-        self.id = id
+    init(name: Text?, value: Text?) {
         self.name = name
         self.value = value
     }
+}
 
+extension InfoCellViewModel: Cellable {
     var cell: InfoCell {
         .init(name: name, value: value)
     }
-
 }
 
 struct InfoCell: View {
-
     let name: Text?
     let value: Text?
-
     var body: some View {
         HStack {
             name

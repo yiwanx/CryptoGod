@@ -13,7 +13,6 @@ struct CryptoDetailsView: View {
     let backColor: Color
 
 
-
     var body: some View {
         List(cellViewModels) { item in
             item.cell

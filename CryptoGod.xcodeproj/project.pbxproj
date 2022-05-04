@@ -27,16 +27,15 @@
 		6FB9A35527787700009CDBAD /* APIBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB9A34E27787700009CDBAD /* APIBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6FB9A35927787723009CDBAD /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BDD9327774EAB00BB89AF /* Crypto.swift */; };
 		6FB9A35A277877E3009CDBAD /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BDD8627774A9600BB89AF /* Environment.swift */; };
-		6FB9A35B277877E7009CDBAD /* ServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BDD962777502600BB89AF /* ServerError.swift */; };
 		6FB9A35C277877E7009CDBAD /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BDD9027774E4800BB89AF /* Secret.swift */; };
 		6FB9A35D277877E7009CDBAD /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BDD8427774A4B00BB89AF /* Request.swift */; };
-		6FB9A35E277877E7009CDBAD /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BDD982777511300BB89AF /* HTTPStatusCode.swift */; };
 		6FB9A35F277877E7009CDBAD /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BDD82277749DF00BB89AF /* Service.swift */; };
 		6FB9A360277877EB009CDBAD /* CryptoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2BDD8E27774C3000BB89AF /* CryptoRequest.swift */; };
-		6FC6FD5B27887F5E00AE1B08 /* ListSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC6FD5A27887F5E00AE1B08 /* ListSelectionView.swift */; };
-		6FC6FD5D27887F6D00AE1B08 /* ListSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC6FD5C27887F6D00AE1B08 /* ListSelectionViewModel.swift */; };
 		D6419682459884BA2DBCD79C /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D644C1923A1325EA6070F7D7 /* TextStyle.swift */; };
 		D643BBDC64B84D681A12CD22 /* CryptoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648DF5FC55160D227F222B7 /* CryptoCell.swift */; };
+		D64419B235EFB4D14C9C37FD /* ColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645027CEE5276EA31AC6440 /* ColorStyle.swift */; };
+		D6491D1E58D34F2D087E6E0D /* CellStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D644B34C5044D6696BF09EA5 /* CellStyling.swift */; };
+		D649A5593B9199928EA35F4F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64AD72848CF9B88DB5D68BE /* TabBar.swift */; };
 		D64E4BBA3593DE92984F93C8 /* NumberStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64026D3F66C5046F5718786 /* NumberStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -95,19 +94,19 @@
 		6F2BDD8E27774C3000BB89AF /* CryptoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoRequest.swift; sourceTree = "<group>"; };
 		6F2BDD9027774E4800BB89AF /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		6F2BDD9327774EAB00BB89AF /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
-		6F2BDD962777502600BB89AF /* ServerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerError.swift; sourceTree = "<group>"; };
-		6F2BDD982777511300BB89AF /* HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
 		6F2BDD9B277756D400BB89AF /* CryptoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListView.swift; sourceTree = "<group>"; };
 		6F2BDD9D277756F300BB89AF /* CryptoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListViewModel.swift; sourceTree = "<group>"; };
 		6FA5B206278B17C7009C1A22 /* CryptoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailsView.swift; sourceTree = "<group>"; };
 		6FA5B208278B17D5009C1A22 /* CryptoDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailsViewModel.swift; sourceTree = "<group>"; };
 		6FB9A34E27787700009CDBAD /* APIBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB9A35027787700009CDBAD /* APIBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIBase.h; sourceTree = "<group>"; };
-		6FC6FD5A27887F5E00AE1B08 /* ListSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSelectionView.swift; sourceTree = "<group>"; };
-		6FC6FD5C27887F6D00AE1B08 /* ListSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSelectionViewModel.swift; sourceTree = "<group>"; };
 		D64026D3F66C5046F5718786 /* NumberStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberStyle.swift; sourceTree = "<group>"; };
+		D644B34C5044D6696BF09EA5 /* CellStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellStyling.swift; sourceTree = "<group>"; };
 		D644C1923A1325EA6070F7D7 /* TextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		D645027CEE5276EA31AC6440 /* ColorStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorStyle.swift; sourceTree = "<group>"; };
 		D648DF5FC55160D227F222B7 /* CryptoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoCell.swift; sourceTree = "<group>"; };
+		D64AD72848CF9B88DB5D68BE /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		D64F12E6B2E07A30D1A58484 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +154,7 @@
 				6F2BDD5B277746FA00BB89AF /* CryptoGodUITests */,
 				6FB9A34F27787700009CDBAD /* APIBase */,
 				6F2BDD3F277746FA00BB89AF /* Products */,
+				D64F12E6B2E07A30D1A58484 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,13 +173,13 @@
 			isa = PBXGroup;
 			children = (
 				6FA5B205278B17A4009C1A22 /* CryptoDetails */,
-				6FC6FD5927887EDB00AE1B08 /* ListSelection */,
 				6F2BDD41277746FA00BB89AF /* CryptoGodApp.swift */,
 				6F2BDD8827774B6900BB89AF /* CryptoList */,
 				6F2BDD45277746FA00BB89AF /* Assets.xcassets */,
 				6F2BDD47277746FA00BB89AF /* Preview Content */,
 				D6407AD76AE5762D4C4FD5B4 /* Styling */,
 				D64F1DFCC438521A4DC9AEF1 /* Components */,
+				D648A0E70C70563617C2F3BA /* TabBar */,
 			);
 			path = CryptoGod;
 			sourceTree = "<group>";
@@ -259,8 +259,6 @@
 				6F2BDD8627774A9600BB89AF /* Environment.swift */,
 				6F2BDD82277749DF00BB89AF /* Service.swift */,
 				6F2BDD8427774A4B00BB89AF /* Request.swift */,
-				6F2BDD962777502600BB89AF /* ServerError.swift */,
-				6F2BDD982777511300BB89AF /* HTTPStatusCode.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -283,22 +281,23 @@
 			path = APIBase;
 			sourceTree = "<group>";
 		};
-		6FC6FD5927887EDB00AE1B08 /* ListSelection */ = {
-			isa = PBXGroup;
-			children = (
-				6FC6FD5A27887F5E00AE1B08 /* ListSelectionView.swift */,
-				6FC6FD5C27887F6D00AE1B08 /* ListSelectionViewModel.swift */,
-			);
-			path = ListSelection;
-			sourceTree = "<group>";
-		};
 		D6407AD76AE5762D4C4FD5B4 /* Styling */ = {
 			isa = PBXGroup;
 			children = (
 				D64026D3F66C5046F5718786 /* NumberStyle.swift */,
 				D644C1923A1325EA6070F7D7 /* TextStyle.swift */,
+				D645027CEE5276EA31AC6440 /* ColorStyle.swift */,
+				D644B34C5044D6696BF09EA5 /* CellStyling.swift */,
 			);
 			path = Styling;
+			sourceTree = "<group>";
+		};
+		D648A0E70C70563617C2F3BA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D64AD72848CF9B88DB5D68BE /* TabBar.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		D64F1DFCC438521A4DC9AEF1 /* Components */ = {
@@ -497,13 +496,14 @@
 				6FA5B209278B17D5009C1A22 /* CryptoDetailsViewModel.swift in Sources */,
 				6F2BDD42277746FA00BB89AF /* CryptoGodApp.swift in Sources */,
 				6FA5B207278B17C7009C1A22 /* CryptoDetailsView.swift in Sources */,
-				6FC6FD5D27887F6D00AE1B08 /* ListSelectionViewModel.swift in Sources */,
 				6F24822E27945053006437A7 /* InfoCell.swift in Sources */,
 				6F2BDD9E277756F300BB89AF /* CryptoListViewModel.swift in Sources */,
 				D64E4BBA3593DE92984F93C8 /* NumberStyle.swift in Sources */,
 				D6419682459884BA2DBCD79C /* TextStyle.swift in Sources */,
 				D643BBDC64B84D681A12CD22 /* CryptoCell.swift in Sources */,
-				6FC6FD5B27887F5E00AE1B08 /* ListSelectionView.swift in Sources */,
+				D64419B235EFB4D14C9C37FD /* ColorStyle.swift in Sources */,
+				D6491D1E58D34F2D087E6E0D /* CellStyling.swift in Sources */,
+				D649A5593B9199928EA35F4F /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,13 +529,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FB9A360277877EB009CDBAD /* CryptoRequest.swift in Sources */,
-				6FB9A35E277877E7009CDBAD /* HTTPStatusCode.swift in Sources */,
 				6FB9A35F277877E7009CDBAD /* Service.swift in Sources */,
 				6FB9A35A277877E3009CDBAD /* Environment.swift in Sources */,
 				6FB9A35C277877E7009CDBAD /* Secret.swift in Sources */,
 				6FB9A35D277877E7009CDBAD /* Request.swift in Sources */,
 				6FB9A35927787723009CDBAD /* Crypto.swift in Sources */,
-				6FB9A35B277877E7009CDBAD /* ServerError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

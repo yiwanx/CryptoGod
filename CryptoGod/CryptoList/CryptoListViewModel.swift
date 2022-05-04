@@ -26,8 +26,6 @@ class CryptoListViewModel: ObservableObject {
     @Published var hasError = false
     
     func getCryptos() async {
-        errorMessage = ""
-        
         await Service.shared.request(MultiTarget(CryptoRequest())) { result in
             switch result {
             case let .success(response):

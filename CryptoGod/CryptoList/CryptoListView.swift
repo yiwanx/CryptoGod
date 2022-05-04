@@ -28,18 +28,17 @@ struct CryptoListView: View {
         NavigationView {
             List(viewModel.cryptos) { item in
                 NavigationLink(destination: CryptoDetailsViewModel(crypto: item).view) {
-                    listRow(item)
+                    listRow(item).padding(8)
                 }
-            }
+            }.listStyle(.plain)
             .task {
                 await viewModel.getCryptos()
             }
             .alert("Error", isPresented: $viewModel.hasError) {
-            } message: {
                 Text(viewModel.errorMessage)
             }.navigationTitle("CryptoGod").navigationBarTitleDisplayMode(.inline).font(.title)
             
-        }
+        }.padding(0)
 
 
     }
